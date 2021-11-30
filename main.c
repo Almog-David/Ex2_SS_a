@@ -3,10 +3,9 @@
 #include <math.h>
 #include "my_mat.h"
 
-void main (){
+int main (){
     char ans;
     int i,j;
-    int matrix[10][10];
     while(ans!='D'){
         scanf ("%c",&ans);
         switch (ans)
@@ -24,4 +23,5 @@ void main (){
             break;
         }
     }
+    return 0;
 }
